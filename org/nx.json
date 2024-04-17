@@ -58,5 +58,10 @@
       }
     }
   },
-  "nxCloudAccessToken": "NmU5MTk1NTUtN2JmNS00NThiLTk4MzEtYWE1MWYwZDJlODJkfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NmU5MTk1NTUtN2JmNS00NThiLTk4MzEtYWE1MWYwZDJlODJkfHJlYWQtd3JpdGU=",
+  "targetDefaults": {
+    "build-custom-server": {
+      "cache": true
+    }
+  }
 }

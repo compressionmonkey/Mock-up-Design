@@ -1,0 +1,9 @@
+{
+  "name": "ssyk-ui-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/ssyk-ui-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["ssyk-ui"],
+  "// targets": "to see all targets run: nx show project ssyk-ui-e2e --web",
+  "targets": {}
+}

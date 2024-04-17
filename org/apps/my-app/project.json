@@ -1,0 +1,53 @@
+{
+  "name": "my-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/my-app",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "dependsOn": ["^build", "build-custom-server"]
+    },
+    "build-custom-server": {
+      "executor": "@nx/js:swc",
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/my-app",
+        "main": "apps/my-app/server/main.ts",
+        "tsConfig": "apps/my-app/tsconfig.server.json",
+        "clean": false,
+        "assets": []
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve-custom-server": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "my-app:build-custom-server"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "my-app:build-custom-server:development"
+        },
+        "production": {
+          "buildTarget": "my-app:build-custom-server:production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "options": {
+        "buildTarget": "my-app:build"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "my-app:build:production"
+        }
+      }
+    }
+  }
+}
