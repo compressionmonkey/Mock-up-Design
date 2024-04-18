@@ -26,3 +26,14 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  h4 {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1em;
+  }
+}

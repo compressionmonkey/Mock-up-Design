@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         mercury : '#e9e9e9'
       },
+      spacing: {
+        '3.5': '0.875rem',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
