@@ -5,7 +5,7 @@ import Image from 'next/image';
  * @param title The page title
  * @returns The rendered page title component
  */
-export default function ProductOffer({title, subtitle, text, CTA, media}: {title: string, subtitle: string, text?: string, CTA: Array<{title?: string, Action?: string}> | [], media?: Array<{url: string}>, split: Boolean}): JSX.Element {
+export default function ProductOffer({title, subtitle, text, CTA, media}: {title: string, subtitle: string, text?: string, CTA: Array<{title?: string, Action?: string}> | [], media?: Array<{url: string}>}): JSX.Element {
     const ctaTitle = CTA?.[0]?.title;
     const ctaAction = CTA?.[0]?.Action;
     return (
