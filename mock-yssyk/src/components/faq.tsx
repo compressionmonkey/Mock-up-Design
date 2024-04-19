@@ -11,9 +11,9 @@ const faqData = [
 ];
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleItem = (index) => {
+  const toggleItem = (index: number) => {
     if (openIndex === index) {
       setOpenIndex(null); // Close the current open item
     } else {
