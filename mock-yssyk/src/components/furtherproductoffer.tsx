@@ -7,7 +7,7 @@
 // FurtherOffer.js
 export default function FurtherProductOffer() : JSX.Element {
     return (
-      <div className="container mx-auto my-8 p-4 flex flex-row justify-between items-center bg-white shadow-lg">
+      <div className="container mx-auto border-r-2 border-l-2 border-b-2 border-gray-800 p-4 flex flex-row justify-between items-center bg-white shadow-lg">
         <div className="w-1/2 p-6">
           <h2 className="text-2xl font-bold mb-4">Want to refine your craft and take a leap forward in your career?</h2>
           <p className="text-gray-800 mb-4">

@@ -19,6 +19,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   @apply bg-mercury;
+  min-width: 320px; /* This sets the minimum width of the viewport */
+  overflow-x: hidden; /* Prevents horizontal scroll */
 }
 
 @layer utilities {

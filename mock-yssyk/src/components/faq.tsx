@@ -22,7 +22,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="space-y-2 bg-white">
+    <div className="space-y-2 bg-white border-r-2 border-l-2 border-b-2 border-gray-800">
       {faqData.map((faq, index) => (
         <div key={index} className="border p-4 rounded-md">
           <div

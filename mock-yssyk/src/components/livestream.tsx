@@ -1,7 +1,7 @@
 // components/ProjectVideo.js
 export default function LiveStream() {
     return (
-      <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="relative border-r-2 border-l-2 border-b-2 border-gray-800 bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="relative">
           {/* This would be your video thumbnail image */}
           <img

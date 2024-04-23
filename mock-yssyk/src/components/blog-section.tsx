@@ -21,7 +21,7 @@ export default function BlogSection() {
   ];
 
   return (
-    <div className="container bg-white mx-auto my-8 p-4">
+    <div className="container border-r-2 border-l-2 border-b-2 border-gray-800 bg-white mx-auto p-4">
       <h2 className="text-center text-2xl font-bold uppercase mb-6">Blog</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {blogPosts.map((post, index) => (

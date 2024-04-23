@@ -1,7 +1,7 @@
 // components/FurtherOfferWithImage.js
 export default function ProductOfferEncore() {
     return (
-      <div className="flex bg-white justify-between items-center mx-auto my-8 p-4">
+      <div className="flex bg-white justify-between items-center mx-auto border-r-2 border-l-2 border-b-2 border-gray-800 p-4">
         <div className="w-1/2 flex flex-col">
           <div className="mb-4">
             {/* For a real application, replace with <img src="your-image-path.jpg" alt="descriptive text" /> */}
