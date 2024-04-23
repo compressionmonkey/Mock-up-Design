@@ -20,7 +20,7 @@ const config: Config = {
         },
       },
       fontWeight: {
-        'extrabold': 900,
+        'extrabold': '900',
       },
       margin: {
         '7': '7px',
