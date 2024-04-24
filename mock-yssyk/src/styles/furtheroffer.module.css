@@ -1,0 +1,7 @@
+.bligimagewrapper {
+    height: 305px;
+    background-image: url("https://assets.website-files.com/6221c5775380cd90d164afdb/64c3ae86c3b065eb5a9fc52f_690d69a4ec08ac9135c3e5.webp");
+    background-position: 50%;
+    background-size: cover;
+    border: 3px solid #000;
+}

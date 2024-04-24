@@ -14,9 +14,9 @@ export default function ProductOffer({title, subtitle, text, CTA, media}: {title
         <h1 className="text-4xl md:text-6xl font-extrabold">{title}</h1>
         <h2 className="text-2xl md:text-3xl font-bold">{subtitle}</h2>
         <p className="text-base">{text}</p>
-        <form className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-2">
-            <input type="email" placeholder={ctaTitle} className="border-2 border-black p-2 w-full" />
-            <button className="bg-black text-white px-4 py-2 w-full sm:w-auto">{ctaAction}</button>
+        <form className="flex flex-col sm:flex-row border-2 border-gray-800 items-center space-y-2 sm:space-y-0 sm:space-x-2">
+            <input type="email" placeholder={ctaTitle} className="p-2 w-full py-1.5 pr-1.5 pl-[15px]" />
+            <button className="bg-black text-white px-4 py-2 w-full sm:w-auto py-1.5 pr-1.5 pl-[15px]">{ctaAction}</button>
         </form>
     </div>
     <div className="w-full md:w-1/2 relative min-h-[50vh]">

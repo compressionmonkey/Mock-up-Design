@@ -1,15 +1,12 @@
+import style from '@/styles/furtheroffer.module.css';
 export default function FurtherOffer(): JSX.Element {
     
     return (
-        <div className="flex justify-center items-center border-r-2 border-l-2 border-b-2 border-gray-800">
-            <div className="flex flex-row shadow-lg">
-                <div className="w-1/2">
-                {/* Image goes here */}
-                {/* As we don't have the actual image, I'm using a placeholder. */}
-                {/* In a real application, you would have an <img> tag here */}
-                <div className="bg-black h-full"></div>
+        <div className="flex justify-center items-center border-r-2 border-l-2 border-b-2 border-gray-800 bg-white py-[150px] pl-[50px] pr-[50px]">
+                <div className="w-[45%]">
+                <div className={style.bligimagewrapper}></div>
                 </div>
-                <div className="w-1/2 bg-white p-8">
+                <div className="w-[55%] p-8">
                 <div className="text-lg font-semibold mb-4">yssyk</div>
                 <div className="text-2xl font-bold mb-4">Want to refine your craft and take a leap forward in your career?</div>
                 <p className="text-gray-700 mb-4">
@@ -19,7 +16,6 @@ export default function FurtherOffer(): JSX.Element {
                     Know more
                 </button>
                 </div>
-            </div>
     </div>
     );
 };
